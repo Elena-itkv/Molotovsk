@@ -5,26 +5,21 @@ p {
 	text-align: center;
   }
 body {
-	background-image: url(fon4.jpg);
-	background-size: 100%;
-	text-shadow: 0px 4px 10px rgba(59, 64, 143, 0.8);
+	background-image: url(fon1.jpg);
+	text-shadow: 0px 4px 10px rgba(0, 162, 255, 0.8);
 }
 h1 {
 	padding: 15px;
 	margin-bottom: -70px;
 	text-align: center;
 	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-	color: rgb(12, 10, 145);
+	color: rgb(255, 255, 255);
 	text-shadow: 0px 4px 10px rgba(112, 117, 180, 0.8)
 }
 h2 {
 	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-	background-color: rgba(102, 123, 216, 0.5);
-	color: #1a30ac;
-	margin-bottom: -20px;
-	margin-left: 250px;
-	width: 850px;
-	height: 190px;
+	background-color: rgba(77, 98, 192, 0.5);
+	color: #ffffff;
 }
 .menu-main {
 	list-style: none;
@@ -35,7 +30,7 @@ h2 {
   .menu-main li {display: inline-block;}
   .menu-main li:after {
 	content: "|";
-	color: #160d8f;
+	color: #008cff;
 	display: inline-block;
 	vertical-align:top;
 	font-size: 25px;
@@ -54,8 +49,8 @@ h2 {
 	transition: color .2s;
 
   }
-  .menu-main a, .menu-main a:visited {color: #0c0753;}
-  .menu-main a.current, .menu-main a:hover{color: #0d0124;}
+  .menu-main a, .menu-main a:visited {color: #fcfcff;}
+  .menu-main a.current, .menu-main a:hover{color: #b89fe6;}
   .menu-main a:before,
   .menu-main a:after {
 	content: "";
@@ -64,7 +59,7 @@ h2 {
 	right: 50%;
 	bottom: 15px;
 	left: 50%;
-	background: #070250;
+	background: #f8f8f8;
 	transition: .8s;
   }
   .menu-main a:hover:before, .menu-main .current:before {left: 0;}

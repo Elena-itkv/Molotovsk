@@ -1,0 +1,72 @@
+body {
+	background-image: url(fon14.jpg);
+}
+h1 {
+    padding: 15px;
+	margin-bottom: -70px;
+	text-align: center;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	color: rgb(59, 59, 59);
+	text-shadow: 0px 4px 10px rgba(131, 97, 97, 0.8)
+}
+h3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 70px;
+	color: rgb(34, 34, 34);
+    text-shadow: 0px 4px 10px rgba(0, 0, 0, 0.8)}
+    .photo {
+        padding: 0px;
+        margin-left: 420px; 
+    }
+    u {
+        text-decoration: underline;
+        text-decoration-color: rgb(238, 238, 238);
+    }
+    .menu-main {
+        list-style: none;
+        margin: 40px 0 5px;
+        padding: 52px 0 17px;
+        text-align: center;
+      }
+      .menu-main li {display: inline-block;}
+      .menu-main li:after {
+        content: "|";
+        color: #160d8f;
+        display: inline-block;
+        vertical-align:top;
+      }
+      .menu-main li:last-child:after {content: none;}
+      .menu-main a {
+        text-decoration: none;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        letter-spacing: 0px;
+        position: relative;
+        padding-bottom: 10px;
+        margin: 0 34px 0 30px;
+        font-size: 50px;
+        text-transform: uppercase;
+        display: inline-block;
+        transition: color .2s;
+    
+      }
+      .menu-main a, .menu-main a:visited {color: #242422;}
+      .menu-main a.current, .menu-main a:hover{color: #0c0c0c;}
+      .menu-main a:before,
+      
+      .menu-main a:hover:before, .menu-main .current:before {left: 0;}
+      .menu-main a:hover:after, .menu-main .current:after {right: 0;}   
+        @media (max-width: 550px) {
+      .menu-main {padding-top: 4px;}
+      .menu-main li {display: block;}
+      .menu-main li:after {content: none;}
+      .menu-main a {
+        padding: 34px 0 20px; 
+        margin: 0 30px;
+      }}
+      
+      figcaption {
+        color: rgb(20, 18, 18);
+        text-shadow: 0px 4px 10px rgba(0, 0, 0, 0.8);
+        background-color: rgba(199, 199, 199, 0.356);
+    } 
+    
